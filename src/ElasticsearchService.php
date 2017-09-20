@@ -8,13 +8,18 @@ use Nord\Lumen\Elasticsearch\Search\Query\QueryBuilder;
 use Nord\Lumen\Elasticsearch\Search\Search;
 use Nord\Lumen\Elasticsearch\Search\Sort;
 
+/**
+ * Class ElasticsearchService
+ *
+ * @package Nord\Lumen\Elasticsearch
+ */
 class ElasticsearchService implements ElasticsearchServiceContract
 {
 
-    /**
-     * @var Client
-     */
-    private $client;
+	/**
+	 * @var Client
+	 */
+	private $client;
 
 
     /**
